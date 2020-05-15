@@ -4,7 +4,7 @@ from django.http import Http404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.views import generic
-
+#add two lines
 # Create your views here.
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
